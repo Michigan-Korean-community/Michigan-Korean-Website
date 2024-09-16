@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Junko - wishlist page</title>
+    <title>Junko - login</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -12,7 +12,6 @@
 
     <!-- CSS 
     ========================= -->
-
 
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="../../static/css/plugins.css">
@@ -514,7 +513,7 @@
                                                 <li><a href="index-5.html">Home shop 5</a></li>
                                             </ul>
                                         </li>
-                                        <li class="mega_items"><a class="active" href="shop.html">shop<i
+                                        <li class="mega_items"><a href="shop.html">shop<i
                                                     class="fa fa-angle-down"></i></a>
                                             <div class="mega_menu">
                                                 <ul class="mega_menu_inner">
@@ -575,7 +574,7 @@
                                                 <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">pages <i class="fa fa-angle-down"></i></a>
+                                        <li><a class="active" href="#">pages <i class="fa fa-angle-down"></i></a>
                                             <ul class="sub_menu pages">
                                                 <li><a href="about.html">About Us</a></li>
                                                 <li><a href="services.html">services</a></li>
@@ -625,8 +624,7 @@
                                             <li><a href="index-5.html">Home shop 5</a></li>
                                         </ul>
                                     </li>
-                                    <li class="mega_items"><a class="active" href="shop.html">shop<i
-                                                class="fa fa-angle-down"></i></a>
+                                    <li class="mega_items"><a href="shop.html">shop<i class="fa fa-angle-down"></i></a>
                                         <div class="mega_menu">
                                             <ul class="mega_menu_inner">
                                                 <li><a href="#">Shop Layouts</a>
@@ -680,7 +678,7 @@
                                             <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">pages <i class="fa fa-angle-down"></i></a>
+                                    <li><a class="active" href="#">pages <i class="fa fa-angle-down"></i></a>
                                         <ul class="sub_menu pages">
                                             <li><a href="about.html">About Us</a></li>
                                             <li><a href="services.html">services</a></li>
@@ -773,7 +771,7 @@
                     <div class="breadcrumb_content">
                         <ul>
                             <li><a href="index.html">home</a></li>
-                            <li>Wishlist</li>
+                            <li>My account</li>
                         </ul>
                     </div>
                 </div>
@@ -782,88 +780,62 @@
     </div>
     <!--breadcrumbs area end-->
 
-
-    <!--wishlist area start -->
-    <div class="wishlist_area mt-60">
+    <!-- customer login start -->
+    <div class="customer_login mt-60">
         <div class="container">
-            <form action="#">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="table_desc wishlist">
-                            <div class="cart_page table-responsive">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th class="product_remove">Delete</th>
-                                            <th class="product_thumb">Image</th>
-                                            <th class="product_name">Product</th>
-                                            <th class="product-price">Price</th>
-                                            <th class="product_total">Add To Cart</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="product_remove"><a href="#">X</a></td>
-                                            <td class="product_thumb"><a href="#"><img
-                                                        src="../../static/img/s-product/product.jpg" alt=""></a></td>
-                                            <td class="product_name"><a href="#">Handbag fringilla</a></td>
-                                            <td class="product-price">£65.00</td>
-                                             
-                                            <td class="product_total"><a href="#">Add To Cart</a></td>
+            <div class="row">
+                <!--login area start-->
+                <div class="col-lg-6 col-md-6">
+                    <div class="account_form">
+                        <h2>login</h2>
+                        <form action="#">
+                            <p>
+                                <label>Username or email <span>*</span></label>
+                                <input type="text">
+                            </p>
+                            <p>
+                                <label>Passwords <span>*</span></label>
+                                <input type="password">
+                            </p>
+                            <div class="login_submit">
+                                <a href="#">Lost your password?</a>
+                                <label for="remember">
+                                    <input id="remember" type="checkbox">
+                                    Remember me
+                                </label>
+                                <button type="submit">login</button>
 
-
-                                        </tr>
-
-                                        <tr>
-                                            <td class="product_remove"><a href="#">X</a></td>
-                                            <td class="product_thumb"><a href="#"><img
-                                                        src="../../static/img/s-product/product2.jpg" alt=""></a></td>
-                                            <td class="product_name"><a href="#">Handbags justo</a></td>
-                                            <td class="product-price">£90.00</td>
-                                             
-                                            <td class="product_total"><a href="#">Add To Cart</a></td>
-
-
-                                        </tr>
-                                        <tr>
-                                            <td class="product_remove"><a href="#">X</a></td>
-                                            <td class="product_thumb"><a href="#"><img
-                                                        src="../../static/img/s-product/product3.jpg" alt=""></a></td>
-                                            <td class="product_name"><a href="#">Handbag elit</a></td>
-                                            <td class="product-price">£80.00</td>
-                                             
-                                            <td class="product_total"><a href="#">Add To Cart</a></td>
-
-
-                                        </tr>
-
-                                    </tbody>
-                                </table>
                             </div>
 
-                        </div>
+                        </form>
                     </div>
                 </div>
+                <!--login area start-->
 
-            </form>
-            <div class="row">
-                <div class="col-12">
-                    <div class="wishlist_share">
-                        <h4>Share on:</h4>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                            <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
+                <!--register area start-->
+                <div class="col-lg-6 col-md-6">
+                    <div class="account_form register">
+                        <h2>Register</h2>
+                        <form action="#">
+                            <p>
+                                <label>Email address <span>*</span></label>
+                                <input type="text">
+                            </p>
+                            <p>
+                                <label>Passwords <span>*</span></label>
+                                <input type="password">
+                            </p>
+                            <div class="login_submit">
+                                <button type="submit">Register</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
+                <!--register area end-->
             </div>
-
         </div>
     </div>
-    <!--wishlist area end -->
+    <!-- customer login end -->
 
     <!--footer area start-->
     <footer class="footer_widgets">
@@ -971,9 +943,6 @@
         </div>
     </footer>
     <!--footer area end-->
-
-
-
     <!-- JS
 ============================================ -->
 
